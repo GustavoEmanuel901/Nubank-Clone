@@ -1,15 +1,15 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet, Animated } from 'react-native'
 import styled from 'styled-components/native';
 
-export const Container = styled.ScrollView`
-  overflow: hidden;
+export const Container = styled(Animated.ScrollView)`
   margin: 0 30px;
 `;
 
 export const Code = styled.View`
   background: #fff;
   padding: 10px;
-  align-items: stretch;
+  overflow: hidden;
+  align-self: center;
 `;
 
 export const Square = styled.View`
