@@ -20,6 +20,10 @@ export const Card = styled.View`
   border-radius: 4px;
   margin: 0 20px;
   height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 `;
 
 export const CardHeader = styled.View`
